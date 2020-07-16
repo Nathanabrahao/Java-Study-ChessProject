@@ -29,12 +29,16 @@ public class Position {
 		return column;
 	}
 
-
+	
 
 	public void setColumn(int column) {
 		this.column = column;
 	}
 	
+	public void setValues(int row, int column) {
+		this.row = row;
+		this.column = column;
+	}
 	
 	
 	@Override
